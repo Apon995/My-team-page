@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=PT+Serif:wght@700&family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 5px 10%;
+}
+body > header {
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+header > .left-section h1 {
+  font-family: "PT Serif", serif;
+  color: #000;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.62px;
+}
+
+header > .right-section > h3 {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+header > .right-section > p {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+main > .d-grid {
+  padding: 4rem 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 10px;
+}
+
+main > .d-grid > div > .d-flex {
+  width: 100%;
+  display: flex;
+}
+main > .d-grid > div > .d-flex > .left > img {
+  width: 250px;
+}
+
+main > .d-grid > div > .d-flex > .right > h4 {
+  color: #000;
+  font-family: "PT Serif", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  height: fit-content;
+  width: fit-content;
+  transform: rotate;
+  transform: rotate(90deg);
+  white-space: nowrap;
+  transform-origin: bottom left;
+}
+main > .d-grid > div > p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+main > .d-grid > .img-2nd,
+.img-5th {
+  padding-top: 6rem;
+}
+
+footer > p {
+  color: #a9a9a9;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+footer > p > span {
+  color: #a9a9a9;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
